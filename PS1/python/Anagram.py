@@ -38,6 +38,6 @@ try:
     with open('Anagram.txt', 'r') as f:
         words = f.read().split()
         for word in words[1:]:
-            print anagram(word)
-except IOError, e:
-    print e
+            print(anagram(word))
+except (IOError) as e:
+    print(e)
