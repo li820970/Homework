@@ -1,5 +1,6 @@
 //main function.
 
+#include "problem1.h"
 #include "problem2.h"
 #include "problem3question.h"
 #include "problem3answer.h"
