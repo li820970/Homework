@@ -47,6 +47,6 @@ try:
                 row = data[:dimen]
                 matrix.append(row)
                 data = data[dimen:]
-            print diagonal(matrix)
-except IOError, e:
-    print e
+            print (diagonal(matrix))
+except (IOError) as e:
+    print (e)
